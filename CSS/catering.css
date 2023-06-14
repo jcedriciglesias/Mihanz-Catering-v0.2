@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    scroll-behavior: smooth;
+    background: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.562)), url("../IMAGES/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+    
+}
+
+nav{
+    position: sticky;
+    top: 0;
+ height: 15vh;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ 
+
+}
+nav ul{
+    display: inline-flex;
+    padding: 20px;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#logo-name{
+    display:inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+   
+}
+#logo{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
+    border-radius: 90px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.container div h1{
+    font-size: 100px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.option-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+#op1{
+height: 60vh;
+width: 40vh;
+border: 1px solid red;
+
+}
+#op2{
+    height: 60vh;
+    width: 40vh;
+    border: 1px solid red;
+}
+#op3{
+    height: 60vh;
+width: 40vh;
+border: 1px solid red;
+}
